@@ -102,8 +102,8 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="E:\Apps\Cser2020\Media\1536x1536.jpg" />
-                                                <entry key="scalingPercent" value="55" />
+                                                <entry key="imagePath" value="E:\Apps\Cser2020\Media\logo.png" />
+                                                <entry key="scalingPercent" value="53" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -208,7 +208,7 @@
                                             <option name="values">
                                               <map>
                                                 <entry key="color" value="000000" />
-                                                <entry key="imagePath" value="E:\Apps\Cser2020\Media\logo-white.png" />
+                                                <entry key="imagePath" value="E:\Apps\Cser2020\Media\logo.png" />
                                               </map>
                                             </option>
                                           </PersistentState>
@@ -241,7 +241,7 @@
                                   <option name="values">
                                     <map>
                                       <entry key="assetType" value="IMAGE" />
-                                      <entry key="imageAsset" value="E:\Apps\Cser2020\Media\logo-white.png" />
+                                      <entry key="imageAsset" value="E:\Apps\Cser2020\Media\logo.png" />
                                     </map>
                                   </option>
                                 </PersistentState>

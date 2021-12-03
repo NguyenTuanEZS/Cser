@@ -335,7 +335,7 @@ public class MainActivity extends AppCompatActivity {
         Gson gson = new Gson();
 
         String jsonExtras = extras == null ? "{}" : gson.toJson(mapBundle(extras));
-        html = "<script> var ANDROID_EXTRAS =" + jsonExtras + " </script>" + html;
+        html = html.replace("<body>", "<body><script> var ANDROID_EXTRAS =" + jsonExtras + " </script>");
 
         Log.d("jsonExtras", jsonExtras);
         wv.loadDataWithBaseURL(domain, html + "", "text/html", "utf-8", "");
